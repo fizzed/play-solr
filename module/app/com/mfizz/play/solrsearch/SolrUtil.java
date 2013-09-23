@@ -1,8 +1,5 @@
 package com.mfizz.play.solrsearch;
 
-import java.util.List;
-
-import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 
