@@ -1,4 +1,4 @@
-package com.mfizz.play.solrsearch;
+package com.fizzed.play.solr;
 
 import play.Logger;
 

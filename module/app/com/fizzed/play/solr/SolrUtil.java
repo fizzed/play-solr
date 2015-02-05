@@ -1,4 +1,4 @@
-package com.mfizz.play.solrsearch;
+package com.fizzed.play.solr;
 
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;

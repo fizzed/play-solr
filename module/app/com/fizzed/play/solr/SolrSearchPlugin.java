@@ -1,4 +1,4 @@
-package com.mfizz.play.solrsearch;
+package com.fizzed.play.solr;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

@@ -4,7 +4,7 @@ import play.Project._
 
 object ApplicationBuild extends Build {
 
-  val appName         = "mfz-play-module-solrsearch-sample"
+  val appName         = "fizzed-play-module-solr-sample"
   val appVersion      = "1.0-SNAPSHOT"
 
   val appDependencies = Seq(
