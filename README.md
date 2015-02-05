@@ -18,6 +18,7 @@ demonstrating its use.
 
 | PlayFramework version | Module version | 
 |:----------------------|:---------------|
+| 2.2.x                 | 1.1.0          |
 | 2.1.x                 | 1.0.0          |
 
 
@@ -31,7 +32,7 @@ dependencies list, in `build.sbt` or `Build.scala` file:
 
 ```scala
 libraryDependencies ++= Seq(
-  "com.fizzed" %% "fizzed-play-module-solr" % "1.0.0"
+  "com.fizzed" %% "fizzed-play-module-solr" % "1.1.0"
 )
 ```
 
@@ -51,7 +52,7 @@ object ApplicationBuild extends Build {
     javaCore,
     javaJdbc,
     javaEbean,
-    "com.fizzed" %% "fizzed-play-module-solr" % "1.0.0"
+    "com.fizzed" %% "fizzed-play-module-solr" % "1.1.0"
   )
   
   ...

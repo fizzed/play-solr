@@ -5,7 +5,7 @@ import play.Project._
 object ApplicationBuild extends Build {
 
   val appName         = "fizzed-play-module-solr"
-  val appVersion      = "1.0.0"
+  val appVersion      = "1.1.0"
 
   val appDependencies = Seq(
     "org.apache.solr" % "solr-solrj" % "4.3.0",
