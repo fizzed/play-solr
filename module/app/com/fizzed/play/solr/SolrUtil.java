@@ -5,19 +5,6 @@ import org.apache.solr.common.SolrDocumentList;
 
 public class SolrUtil {
 	
-	/** TODO: not working */
-	/**
-	public static String highlighting(QueryResponse response, SolrDocument doc) {
-		String id = (String)doc.getFieldValue("id");
-		List<String> highlights = response.getHighlighting().get(id).get("content");
-		if (highlights != null && highlights.size() > 0) {
-			return highlights.get(0);
-		} else {
-			return "";
-		}
-	}
-	*/
-	
 	public static String absoluteUrl(SolrDocument doc) {
 		String url = (String)doc.getFirstValue("url");
 		// if it's not an absolute url -- append first site
