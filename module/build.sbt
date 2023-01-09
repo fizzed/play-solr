@@ -1,6 +1,6 @@
 name := "fizzed-play-module-solr"
 
-version := "1.2.0"
+version := "1.2.1"
 
 startYear := Some(2013)
 

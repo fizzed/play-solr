@@ -16,7 +16,7 @@ import play.libs.Akka;
 import scala.concurrent.duration.FiniteDuration;
 import akka.dispatch.MessageDispatcher;
 
-public class SolrSearchPlugin extends Plugin {
+public class SolrPlugin extends Plugin {
 
 	private String url;
 	private String site;
@@ -28,7 +28,7 @@ public class SolrSearchPlugin extends Plugin {
 
     private final Application application;
 
-    public SolrSearchPlugin(Application application) {
+    public SolrPlugin(Application application) {
         this.application = application;
     }
 

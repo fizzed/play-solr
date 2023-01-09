@@ -15,7 +15,7 @@ public class IndexingJob implements Runnable {
 	@Override
 	public void run() {
 		// need to get a reference to the plugin
-		SolrSearchPlugin plugin = Play.application().plugin(SolrSearchPlugin.class);
+		SolrPlugin plugin = Play.application().plugin(SolrPlugin.class);
 		long start = System.currentTimeMillis();
 		Logger.info("Starting solr search (re)indexing...");
 		try {
